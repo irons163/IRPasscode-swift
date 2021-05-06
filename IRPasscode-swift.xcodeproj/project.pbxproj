@@ -8,12 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		4A44E35125248D4300CE3540 /* IRPasscode_swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A44E34F25248D4300CE3540 /* IRPasscode_swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A98D42426380575002086D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A98D42326380574002086D6 /* Assets.xcassets */; };
+		4A98D42726380592002086D6 /* IRPasscodeBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4A98D42626380592002086D6 /* IRPasscodeBundle.bundle */; };
+		4AB572FF25E4EC7900B0FB21 /* IRPasscodeLockSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB572FD25E4EC7900B0FB21 /* IRPasscodeLockSettingViewController.swift */; };
+		4AB5730025E4EC7900B0FB21 /* IRPasscodeLockSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AB572FE25E4EC7900B0FB21 /* IRPasscodeLockSettingViewController.xib */; };
+		4AB5730625E4F73900B0FB21 /* IRPasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB5730525E4F73900B0FB21 /* IRPasscodeView.swift */; };
+		4AB5730B25E4F75300B0FB21 /* IRSecurityPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB5730925E4F75300B0FB21 /* IRSecurityPinViewController.swift */; };
+		4AB5730C25E4F75300B0FB21 /* IRSecurityPinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AB5730A25E4F75300B0FB21 /* IRSecurityPinViewController.xib */; };
+		4AB5730F25E4F77C00B0FB21 /* IRFingerPrintVerify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB5730E25E4F77C00B0FB21 /* IRFingerPrintVerify.swift */; };
+		4AB5731225E4F78A00B0FB21 /* IRSecurityPinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB5731125E4F78A00B0FB21 /* IRSecurityPinManager.swift */; };
+		4AB5731825E4F7BC00B0FB21 /* IRSecurityPinButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB5731725E4F7BC00B0FB21 /* IRSecurityPinButton.swift */; };
+		4AB5731D25E4F88500B0FB21 /* UIImage+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB5731A25E4F88500B0FB21 /* UIImage+Bundle.swift */; };
+		4AB5731E25E4F88500B0FB21 /* UIColor+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB5731B25E4F88500B0FB21 /* UIColor+Helper.swift */; };
+		4AB5731F25E4F88500B0FB21 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB5731C25E4F88500B0FB21 /* Utilities.swift */; };
+		4AB5732225E4F8EB00B0FB21 /* Bundle+IRLocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB5732125E4F8EB00B0FB21 /* Bundle+IRLocalizedString.swift */; };
+		4AF5D6912643C3AB00A7158E /* IRCustomIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF5D6902643C3AB00A7158E /* IRCustomIconButton.swift */; };
+		F04FFF68794823397517257A /* Pods_IRPasscode_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB807AF0502DE8EDEB4EB72 /* Pods_IRPasscode_swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4A44E34C25248D4300CE3540 /* IRPasscode_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IRPasscode_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A44E34F25248D4300CE3540 /* IRPasscode_swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRPasscode_swift.h; sourceTree = "<group>"; };
 		4A44E35025248D4300CE3540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A98D42326380574002086D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A98D42626380592002086D6 /* IRPasscodeBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IRPasscodeBundle.bundle; sourceTree = "<group>"; };
+		4AB572FD25E4EC7900B0FB21 /* IRPasscodeLockSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRPasscodeLockSettingViewController.swift; sourceTree = "<group>"; };
+		4AB572FE25E4EC7900B0FB21 /* IRPasscodeLockSettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IRPasscodeLockSettingViewController.xib; sourceTree = "<group>"; };
+		4AB5730525E4F73900B0FB21 /* IRPasscodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRPasscodeView.swift; sourceTree = "<group>"; };
+		4AB5730925E4F75300B0FB21 /* IRSecurityPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRSecurityPinViewController.swift; sourceTree = "<group>"; };
+		4AB5730A25E4F75300B0FB21 /* IRSecurityPinViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IRSecurityPinViewController.xib; sourceTree = "<group>"; };
+		4AB5730E25E4F77C00B0FB21 /* IRFingerPrintVerify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRFingerPrintVerify.swift; sourceTree = "<group>"; };
+		4AB5731125E4F78A00B0FB21 /* IRSecurityPinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRSecurityPinManager.swift; sourceTree = "<group>"; };
+		4AB5731725E4F7BC00B0FB21 /* IRSecurityPinButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRSecurityPinButton.swift; sourceTree = "<group>"; };
+		4AB5731A25E4F88500B0FB21 /* UIImage+Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Bundle.swift"; sourceTree = "<group>"; };
+		4AB5731B25E4F88500B0FB21 /* UIColor+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Helper.swift"; sourceTree = "<group>"; };
+		4AB5731C25E4F88500B0FB21 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		4AB5732125E4F8EB00B0FB21 /* Bundle+IRLocalizedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+IRLocalizedString.swift"; sourceTree = "<group>"; };
+		4AF5D6902643C3AB00A7158E /* IRCustomIconButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IRCustomIconButton.swift; sourceTree = "<group>"; };
+		6AB807AF0502DE8EDEB4EB72 /* Pods_IRPasscode_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IRPasscode_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D37CE1AB7FCD509854387855 /* Pods-IRPasscode-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IRPasscode-swift.debug.xcconfig"; path = "Target Support Files/Pods-IRPasscode-swift/Pods-IRPasscode-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		DBF090AA782716CE34AACAC0 /* Pods-IRPasscode-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IRPasscode-swift.release.xcconfig"; path = "Target Support Files/Pods-IRPasscode-swift/Pods-IRPasscode-swift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F04FFF68794823397517257A /* Pods_IRPasscode_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26D440B5396DC3EF8CC162BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AB807AF0502DE8EDEB4EB72 /* Pods_IRPasscode_swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38610E87F8AD245E39D108D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D37CE1AB7FCD509854387855 /* Pods-IRPasscode-swift.debug.xcconfig */,
+				DBF090AA782716CE34AACAC0 /* Pods-IRPasscode-swift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4A44E34225248D4300CE3540 = {
 			isa = PBXGroup;
 			children = (
 				4A44E34E25248D4300CE3540 /* IRPasscode-swift */,
 				4A44E34D25248D4300CE3540 /* Products */,
+				38610E87F8AD245E39D108D2 /* Pods */,
+				26D440B5396DC3EF8CC162BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,10 +100,57 @@
 		4A44E34E25248D4300CE3540 /* IRPasscode-swift */ = {
 			isa = PBXGroup;
 			children = (
+				4A98D42326380574002086D6 /* Assets.xcassets */,
+				4A98D42626380592002086D6 /* IRPasscodeBundle.bundle */,
 				4A44E34F25248D4300CE3540 /* IRPasscode_swift.h */,
 				4A44E35025248D4300CE3540 /* Info.plist */,
+				4AB572FC25E4EC4E00B0FB21 /* Classes */,
 			);
 			path = "IRPasscode-swift";
+			sourceTree = "<group>";
+		};
+		4AB572FC25E4EC4E00B0FB21 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4AB5730425E4F72200B0FB21 /* SecurityView */,
+				4AB5730325E4F71B00B0FB21 /* CustomView */,
+				4AB5730225E4F71100B0FB21 /* Utility */,
+				4AB572FD25E4EC7900B0FB21 /* IRPasscodeLockSettingViewController.swift */,
+				4AB572FE25E4EC7900B0FB21 /* IRPasscodeLockSettingViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4AB5730225E4F71100B0FB21 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				4AB5731B25E4F88500B0FB21 /* UIColor+Helper.swift */,
+				4AB5731A25E4F88500B0FB21 /* UIImage+Bundle.swift */,
+				4AB5732125E4F8EB00B0FB21 /* Bundle+IRLocalizedString.swift */,
+				4AB5731C25E4F88500B0FB21 /* Utilities.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		4AB5730325E4F71B00B0FB21 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				4AF5D6902643C3AB00A7158E /* IRCustomIconButton.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		4AB5730425E4F72200B0FB21 /* SecurityView */ = {
+			isa = PBXGroup;
+			children = (
+				4AB5730525E4F73900B0FB21 /* IRPasscodeView.swift */,
+				4AB5730E25E4F77C00B0FB21 /* IRFingerPrintVerify.swift */,
+				4AB5731725E4F7BC00B0FB21 /* IRSecurityPinButton.swift */,
+				4AB5731125E4F78A00B0FB21 /* IRSecurityPinManager.swift */,
+				4AB5730925E4F75300B0FB21 /* IRSecurityPinViewController.swift */,
+				4AB5730A25E4F75300B0FB21 /* IRSecurityPinViewController.xib */,
+			);
+			path = SecurityView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,6 +171,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A44E35425248D4300CE3540 /* Build configuration list for PBXNativeTarget "IRPasscode-swift" */;
 			buildPhases = (
+				786F7407607CA2CF8C1FC424 /* [CP] Check Pods Manifest.lock */,
 				4A44E34725248D4300CE3540 /* Headers */,
 				4A44E34825248D4300CE3540 /* Sources */,
 				4A44E34925248D4300CE3540 /* Frameworks */,
@@ -95,6 +197,7 @@
 				TargetAttributes = {
 					4A44E34B25248D4300CE3540 = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -121,16 +224,56 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AB5730025E4EC7900B0FB21 /* IRPasscodeLockSettingViewController.xib in Resources */,
+				4A98D42426380575002086D6 /* Assets.xcassets in Resources */,
+				4A98D42726380592002086D6 /* IRPasscodeBundle.bundle in Resources */,
+				4AB5730C25E4F75300B0FB21 /* IRSecurityPinViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		786F7407607CA2CF8C1FC424 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IRPasscode-swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4A44E34825248D4300CE3540 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AB5731225E4F78A00B0FB21 /* IRSecurityPinManager.swift in Sources */,
+				4AB5730F25E4F77C00B0FB21 /* IRFingerPrintVerify.swift in Sources */,
+				4AB572FF25E4EC7900B0FB21 /* IRPasscodeLockSettingViewController.swift in Sources */,
+				4AB5731825E4F7BC00B0FB21 /* IRSecurityPinButton.swift in Sources */,
+				4AB5731E25E4F88500B0FB21 /* UIColor+Helper.swift in Sources */,
+				4AB5731D25E4F88500B0FB21 /* UIImage+Bundle.swift in Sources */,
+				4AB5730B25E4F75300B0FB21 /* IRSecurityPinViewController.swift in Sources */,
+				4AF5D6912643C3AB00A7158E /* IRCustomIconButton.swift in Sources */,
+				4AB5731F25E4F88500B0FB21 /* Utilities.swift in Sources */,
+				4AB5732225E4F8EB00B0FB21 /* Bundle+IRLocalizedString.swift in Sources */,
+				4AB5730625E4F73900B0FB21 /* IRPasscodeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +402,9 @@
 		};
 		4A44E35525248D4300CE3540 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D37CE1AB7FCD509854387855 /* Pods-IRPasscode-swift.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -275,6 +420,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "irons163.IRPasscode-swift";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -282,7 +428,9 @@
 		};
 		4A44E35625248D4300CE3540 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBF090AA782716CE34AACAC0 /* Pods-IRPasscode-swift.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;

@@ -1,0 +1,6 @@
+framework module IRPasscode_swift {
+  umbrella header "IRPasscode-swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

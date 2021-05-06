@@ -1,0 +1,921 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13774C4AEA5B315EC191653DE43283F3 /* UIColor+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B252E55FBB85B15DD57FEB91B3C5FB3 /* UIColor+Helper.swift */; };
+		25F8B30ADC86083055C6038A07C578E7 /* IRPasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2331E88B8989B62AA452F527C6058A3 /* IRPasscodeView.swift */; };
+		2AC731CC41E9B322E9F402D310C333FD /* IRPasscodeLockSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD7E109A5EC5CF94F67A44BE306697FC /* IRPasscodeLockSettingViewController.xib */; };
+		330B42961B105DEB98FC1474A0089482 /* IRPasscode-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4D2617D9FC77663F62329522407838 /* IRPasscode-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		380DC96211386EC30B46F8D59E1B3866 /* IRPasscode_swift.h in Headers */ = {isa = PBXBuildFile; fileRef = F1DF9D2B142520E4E8E06A225607A1DD /* IRPasscode_swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D24DFC3BF4FD8341B25233B785A0B7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6B4275EF0B16B4AAE722E77A31D0D6 /* Foundation.framework */; };
+		50CAA23CBB5D674171FA5B374456B4BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5380420F59ED4D5E15794217C8B18ABD /* Assets.xcassets */; };
+		5694F50FFEE34317613614769A05CB5A /* UIImage+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60121A04778EF3C79727EEF3D9DBEE25 /* UIImage+Bundle.swift */; };
+		56C29A28E29A3F0F61A25D3FA43A7274 /* Bundle+IRLocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D72C163FB7E68970E74D153542AFAE /* Bundle+IRLocalizedString.swift */; };
+		576184F15F22C92DEB12231D2D6C2DF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6B4275EF0B16B4AAE722E77A31D0D6 /* Foundation.framework */; };
+		578D148F0AE1AED6A7D7D88EA432C6F7 /* IRCustomIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA3BE588BB68E49217B6C8C8A097B26 /* IRCustomIconButton.swift */; };
+		6833E50C382463A1EAB20E6D8A6690BA /* IRPasscodeLockSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A419D4ABAB989BF527F89A501F17C9C /* IRPasscodeLockSettingViewController.swift */; };
+		6AB7565CBAD927C95877DF790616DC01 /* IRSecurityPinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5906A4C4073ECDF40FFEB30581E29FCA /* IRSecurityPinViewController.xib */; };
+		75BED20FBF2C18B4739D5C84DA1BAE7A /* KeychainAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CFC49DB62D8F102240EE653E69EE217 /* KeychainAccess.framework */; };
+		7D1B234FDE8825342C77713B6BF499DF /* IRFingerPrintVerify.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E6D838C2B4BE8D087C76864EC9C3DE /* IRFingerPrintVerify.swift */; };
+		8599B9775B02E313F8119107914DE7B3 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324442459ABC1E37E0320C20A430C445 /* Utilities.swift */; };
+		93E45B3DEB1B57251CAC3B4E585A5606 /* Pods-demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 919022BC48F9439E29669B27B83A8482 /* Pods-demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABE5B5352AE474380FB05DD8C9254FF2 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EDC7F5AB062228320A8F30E874DBF5 /* Keychain.swift */; };
+		B6EDCB34C046F8B5EECC5792E687D746 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6B4275EF0B16B4AAE722E77A31D0D6 /* Foundation.framework */; };
+		BC7FC221DDDEB6A9F5EDF6D1E4CC8A2C /* KeychainAccess-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D900EDF1BFD0200B583DFD18B7DAEDF2 /* KeychainAccess-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C40515B38D9D2F656005C272480EA92E /* IRSecurityPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A6692B12E7AC9A3C636FE99F3A1EF /* IRSecurityPinViewController.swift */; };
+		CC15F17F861411CF8484DA99306B4C2A /* Pods-demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5DC5ABE867DFAFEEFE65EB904EC044 /* Pods-demo-dummy.m */; };
+		D8CE2BF4A5AF4FDC239978E2CFC8D2EB /* IRSecurityPinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4A38E80A43B9313699FDD04F9D49AB /* IRSecurityPinManager.swift */; };
+		E585CBF5A5557AE9BD9C1DDF213DC0FC /* KeychainAccess-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CC24E5342FC3BA54FD6B10029448E4 /* KeychainAccess-dummy.m */; };
+		F293CC451D6A88C0B46E0AB60FDF0547 /* IRPasscodeBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D8E5AF9C90318D176D8D8C11A4F9B943 /* IRPasscodeBundle.bundle */; };
+		F2D475E20331870CD4C6F74F4B96FD3D /* IRSecurityPinButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DCD42228755C5BABF74DB499AE8AC0 /* IRSecurityPinButton.swift */; };
+		FBFB0389147CB650E1173036CD984CF2 /* IRPasscode-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69320BD2CBBA83330839590114CCC22B /* IRPasscode-swift-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46A6952CFBDF2BAE79DC6F4B45AE7C25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 615C831BCE925ED486B225B87E44926D;
+			remoteInfo = KeychainAccess;
+		};
+		82B4319E4F3F03A91BC6F03202FDFFA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07E573C6387449590FFFC48167FEB464;
+			remoteInfo = "IRPasscode-swift";
+		};
+		E5E265B897895FE7F8AEFAD33B5B871D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 615C831BCE925ED486B225B87E44926D;
+			remoteInfo = KeychainAccess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01F2E7B6963F416E135ADEA7E7482C9C /* IRPasscode_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IRPasscode_swift.framework; path = "IRPasscode-swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		056C11651D9181CFD60992F50710A1E6 /* Pods-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-demo.release.xcconfig"; sourceTree = "<group>"; };
+		102764E75956A8848BC9691383C3E031 /* KeychainAccess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainAccess.debug.xcconfig; sourceTree = "<group>"; };
+		171784CD7F89555EFD77B2A0479363CA /* Pods-demo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-demo-Info.plist"; sourceTree = "<group>"; };
+		1B252E55FBB85B15DD57FEB91B3C5FB3 /* UIColor+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Helper.swift"; sourceTree = "<group>"; };
+		1CFC49DB62D8F102240EE653E69EE217 /* KeychainAccess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeychainAccess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA3BE588BB68E49217B6C8C8A097B26 /* IRCustomIconButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IRCustomIconButton.swift; sourceTree = "<group>"; };
+		241D78B31A172C75E52D0898852DF5FB /* KeychainAccess-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-prefix.pch"; sourceTree = "<group>"; };
+		324442459ABC1E37E0320C20A430C445 /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		32670015D70FA6391C6B8EF22BF7F2BB /* IRPasscode-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "IRPasscode-swift.modulemap"; sourceTree = "<group>"; };
+		4FE45AE5DAA8B1DF7D6099181AD9FA0A /* Pods-demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		52DCD42228755C5BABF74DB499AE8AC0 /* IRSecurityPinButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IRSecurityPinButton.swift; sourceTree = "<group>"; };
+		5380420F59ED4D5E15794217C8B18ABD /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "IRPasscode-swift/Assets.xcassets"; sourceTree = "<group>"; };
+		5906A4C4073ECDF40FFEB30581E29FCA /* IRSecurityPinViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = IRSecurityPinViewController.xib; sourceTree = "<group>"; };
+		5B4A6692B12E7AC9A3C636FE99F3A1EF /* IRSecurityPinViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IRSecurityPinViewController.swift; sourceTree = "<group>"; };
+		5F254B27EA1EAC870127B58E6115CCC1 /* KeychainAccess-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KeychainAccess-Info.plist"; sourceTree = "<group>"; };
+		60121A04778EF3C79727EEF3D9DBEE25 /* UIImage+Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+Bundle.swift"; sourceTree = "<group>"; };
+		60D72C163FB7E68970E74D153542AFAE /* Bundle+IRLocalizedString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Bundle+IRLocalizedString.swift"; sourceTree = "<group>"; };
+		620C2E500E91AE09F121C9670613B82F /* Pods_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_demo.framework; path = "Pods-demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69320BD2CBBA83330839590114CCC22B /* IRPasscode-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IRPasscode-swift-dummy.m"; sourceTree = "<group>"; };
+		6A419D4ABAB989BF527F89A501F17C9C /* IRPasscodeLockSettingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IRPasscodeLockSettingViewController.swift; sourceTree = "<group>"; };
+		7C5DC5ABE867DFAFEEFE65EB904EC044 /* Pods-demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-demo-dummy.m"; sourceTree = "<group>"; };
+		8304FA02D2A592F4996BA412884CCA37 /* Pods-demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-demo.modulemap"; sourceTree = "<group>"; };
+		8D4D2617D9FC77663F62329522407838 /* IRPasscode-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IRPasscode-swift-umbrella.h"; sourceTree = "<group>"; };
+		919022BC48F9439E29669B27B83A8482 /* Pods-demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-demo-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1AFE72AECFFA10F265D22055A2F35B7 /* KeychainAccess.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeychainAccess.modulemap; sourceTree = "<group>"; };
+		AA6F28936150B774D174F70EC133595F /* Pods-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		AD0FE056A4D62357ADF7BBB3D29B2E52 /* Pods-demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-demo-frameworks.sh"; sourceTree = "<group>"; };
+		B3EDC7F5AB062228320A8F30E874DBF5 /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Lib/KeychainAccess/Keychain.swift; sourceTree = "<group>"; };
+		BC6B4275EF0B16B4AAE722E77A31D0D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C6E6D838C2B4BE8D087C76864EC9C3DE /* IRFingerPrintVerify.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IRFingerPrintVerify.swift; sourceTree = "<group>"; };
+		C8CC24E5342FC3BA54FD6B10029448E4 /* KeychainAccess-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainAccess-dummy.m"; sourceTree = "<group>"; };
+		C91108885D55282F8DAE93145588DC6F /* IRPasscode-swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "IRPasscode-swift.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CC128341F6394B3F729F9D7BBF01AA43 /* IRPasscode-swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IRPasscode-swift-prefix.pch"; sourceTree = "<group>"; };
+		CD412C6E579A127E79AB91966C4560FC /* KeychainAccess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainAccess.release.xcconfig; sourceTree = "<group>"; };
+		CD7E109A5EC5CF94F67A44BE306697FC /* IRPasscodeLockSettingViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = IRPasscodeLockSettingViewController.xib; sourceTree = "<group>"; };
+		D08F6359A0E379ED8697FA7E938BCFD6 /* IRPasscode-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "IRPasscode-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		D66C0D6C40A25B275677957E189CC0B6 /* IRPasscode-swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IRPasscode-swift-Info.plist"; sourceTree = "<group>"; };
+		D8E5AF9C90318D176D8D8C11A4F9B943 /* IRPasscodeBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IRPasscodeBundle.bundle; path = "IRPasscode-swift/IRPasscodeBundle.bundle"; sourceTree = "<group>"; };
+		D900EDF1BFD0200B583DFD18B7DAEDF2 /* KeychainAccess-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-umbrella.h"; sourceTree = "<group>"; };
+		E2331E88B8989B62AA452F527C6058A3 /* IRPasscodeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IRPasscodeView.swift; sourceTree = "<group>"; };
+		E8EE7F078656FABB8F6821D10FF994BB /* KeychainAccess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeychainAccess.framework; path = KeychainAccess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA96317F8DBE2C7048B863DEF1B67E14 /* Pods-demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		F1DF9D2B142520E4E8E06A225607A1DD /* IRPasscode_swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRPasscode_swift.h; path = "IRPasscode-swift/IRPasscode_swift.h"; sourceTree = "<group>"; };
+		FA45BE46434E06CAC597B0C7F1E19C1B /* IRPasscode-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "IRPasscode-swift.release.xcconfig"; sourceTree = "<group>"; };
+		FD4A38E80A43B9313699FDD04F9D49AB /* IRSecurityPinManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IRSecurityPinManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22E3DFEB6D6A3E426EEF6AC4531E3A32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EDCB34C046F8B5EECC5792E687D746 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF95CAB4A4FA9500832E818B7BFAE83C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576184F15F22C92DEB12231D2D6C2DF4 /* Foundation.framework in Frameworks */,
+				75BED20FBF2C18B4739D5C84DA1BAE7A /* KeychainAccess.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1802423C78E95D3EF8AC80AB5FFFF6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D24DFC3BF4FD8341B25233B785A0B7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1822CF174BA8C3BC1C6A1BCD70C74D9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				919386A9ADBF76F63E3A3BBA7B97D2E4 /* KeychainAccess */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1B53F4F5DD5C427741407E58FC904720 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				1FA3BE588BB68E49217B6C8C8A097B26 /* IRCustomIconButton.swift */,
+			);
+			name = CustomView;
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		212B20E033373D7BF6791DB6B7E047FC /* IRPasscode-swift */ = {
+			isa = PBXGroup;
+			children = (
+				5380420F59ED4D5E15794217C8B18ABD /* Assets.xcassets */,
+				F1DF9D2B142520E4E8E06A225607A1DD /* IRPasscode_swift.h */,
+				D8E5AF9C90318D176D8D8C11A4F9B943 /* IRPasscodeBundle.bundle */,
+				DECF8657047C1E3C0152E01E910BD8FC /* Classes */,
+				72741EECE7098C94A8F42140C1DBD358 /* Pod */,
+				2B35E8F81563834896F5D06D12093B60 /* Support Files */,
+			);
+			name = "IRPasscode-swift";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		21CACB87FC3E0619583712DA501EA639 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BC6B4275EF0B16B4AAE722E77A31D0D6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2B35E8F81563834896F5D06D12093B60 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				32670015D70FA6391C6B8EF22BF7F2BB /* IRPasscode-swift.modulemap */,
+				69320BD2CBBA83330839590114CCC22B /* IRPasscode-swift-dummy.m */,
+				D66C0D6C40A25B275677957E189CC0B6 /* IRPasscode-swift-Info.plist */,
+				CC128341F6394B3F729F9D7BBF01AA43 /* IRPasscode-swift-prefix.pch */,
+				8D4D2617D9FC77663F62329522407838 /* IRPasscode-swift-umbrella.h */,
+				D08F6359A0E379ED8697FA7E938BCFD6 /* IRPasscode-swift.debug.xcconfig */,
+				FA45BE46434E06CAC597B0C7F1E19C1B /* IRPasscode-swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "demo/Pods/Target Support Files/IRPasscode-swift";
+			sourceTree = "<group>";
+		};
+		57792964105F03DEBE5C299FD835D4C2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				212B20E033373D7BF6791DB6B7E047FC /* IRPasscode-swift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6312648348D31D3AE298D467A3D1FB46 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				60D72C163FB7E68970E74D153542AFAE /* Bundle+IRLocalizedString.swift */,
+				1B252E55FBB85B15DD57FEB91B3C5FB3 /* UIColor+Helper.swift */,
+				60121A04778EF3C79727EEF3D9DBEE25 /* UIImage+Bundle.swift */,
+				324442459ABC1E37E0320C20A430C445 /* Utilities.swift */,
+			);
+			name = Utility;
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		7139A0FCEFAB916F2769918041C0A2D4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1AFE72AECFFA10F265D22055A2F35B7 /* KeychainAccess.modulemap */,
+				C8CC24E5342FC3BA54FD6B10029448E4 /* KeychainAccess-dummy.m */,
+				5F254B27EA1EAC870127B58E6115CCC1 /* KeychainAccess-Info.plist */,
+				241D78B31A172C75E52D0898852DF5FB /* KeychainAccess-prefix.pch */,
+				D900EDF1BFD0200B583DFD18B7DAEDF2 /* KeychainAccess-umbrella.h */,
+				102764E75956A8848BC9691383C3E031 /* KeychainAccess.debug.xcconfig */,
+				CD412C6E579A127E79AB91966C4560FC /* KeychainAccess.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KeychainAccess";
+			sourceTree = "<group>";
+		};
+		72741EECE7098C94A8F42140C1DBD358 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C91108885D55282F8DAE93145588DC6F /* IRPasscode-swift.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		812A7439B99BA4172AEB3B54E0181355 /* SecurityView */ = {
+			isa = PBXGroup;
+			children = (
+				C6E6D838C2B4BE8D087C76864EC9C3DE /* IRFingerPrintVerify.swift */,
+				E2331E88B8989B62AA452F527C6058A3 /* IRPasscodeView.swift */,
+				52DCD42228755C5BABF74DB499AE8AC0 /* IRSecurityPinButton.swift */,
+				FD4A38E80A43B9313699FDD04F9D49AB /* IRSecurityPinManager.swift */,
+				5B4A6692B12E7AC9A3C636FE99F3A1EF /* IRSecurityPinViewController.swift */,
+				5906A4C4073ECDF40FFEB30581E29FCA /* IRSecurityPinViewController.xib */,
+			);
+			name = SecurityView;
+			path = SecurityView;
+			sourceTree = "<group>";
+		};
+		919386A9ADBF76F63E3A3BBA7B97D2E4 /* KeychainAccess */ = {
+			isa = PBXGroup;
+			children = (
+				B3EDC7F5AB062228320A8F30E874DBF5 /* Keychain.swift */,
+				7139A0FCEFAB916F2769918041C0A2D4 /* Support Files */,
+			);
+			name = KeychainAccess;
+			path = KeychainAccess;
+			sourceTree = "<group>";
+		};
+		A93195AB5748F7569134F397E2674D09 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBA4AB0AD989728D60465BDAA2076BA2 /* Pods-demo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CBA4AB0AD989728D60465BDAA2076BA2 /* Pods-demo */ = {
+			isa = PBXGroup;
+			children = (
+				8304FA02D2A592F4996BA412884CCA37 /* Pods-demo.modulemap */,
+				4FE45AE5DAA8B1DF7D6099181AD9FA0A /* Pods-demo-acknowledgements.markdown */,
+				EA96317F8DBE2C7048B863DEF1B67E14 /* Pods-demo-acknowledgements.plist */,
+				7C5DC5ABE867DFAFEEFE65EB904EC044 /* Pods-demo-dummy.m */,
+				AD0FE056A4D62357ADF7BBB3D29B2E52 /* Pods-demo-frameworks.sh */,
+				171784CD7F89555EFD77B2A0479363CA /* Pods-demo-Info.plist */,
+				919022BC48F9439E29669B27B83A8482 /* Pods-demo-umbrella.h */,
+				AA6F28936150B774D174F70EC133595F /* Pods-demo.debug.xcconfig */,
+				056C11651D9181CFD60992F50710A1E6 /* Pods-demo.release.xcconfig */,
+			);
+			name = "Pods-demo";
+			path = "Target Support Files/Pods-demo";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				57792964105F03DEBE5C299FD835D4C2 /* Development Pods */,
+				F24E24D4BA2D8A6DE4E3B98465D1B1E3 /* Frameworks */,
+				1822CF174BA8C3BC1C6A1BCD70C74D9E /* Pods */,
+				D54314D5B310639F3BD2D83B84E7E9E1 /* Products */,
+				A93195AB5748F7569134F397E2674D09 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D54314D5B310639F3BD2D83B84E7E9E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01F2E7B6963F416E135ADEA7E7482C9C /* IRPasscode_swift.framework */,
+				E8EE7F078656FABB8F6821D10FF994BB /* KeychainAccess.framework */,
+				620C2E500E91AE09F121C9670613B82F /* Pods_demo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DECF8657047C1E3C0152E01E910BD8FC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6A419D4ABAB989BF527F89A501F17C9C /* IRPasscodeLockSettingViewController.swift */,
+				CD7E109A5EC5CF94F67A44BE306697FC /* IRPasscodeLockSettingViewController.xib */,
+				1B53F4F5DD5C427741407E58FC904720 /* CustomView */,
+				812A7439B99BA4172AEB3B54E0181355 /* SecurityView */,
+				6312648348D31D3AE298D467A3D1FB46 /* Utility */,
+			);
+			name = Classes;
+			path = "IRPasscode-swift/Classes";
+			sourceTree = "<group>";
+		};
+		F24E24D4BA2D8A6DE4E3B98465D1B1E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CFC49DB62D8F102240EE653E69EE217 /* KeychainAccess.framework */,
+				21CACB87FC3E0619583712DA501EA639 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04FDA5D5C29355C13ABBE0BBAEA2FEF3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E45B3DEB1B57251CAC3B4E585A5606 /* Pods-demo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B0E2F1AB46C83EDD724E66FE78DF51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330B42961B105DEB98FC1474A0089482 /* IRPasscode-swift-umbrella.h in Headers */,
+				380DC96211386EC30B46F8D59E1B3866 /* IRPasscode_swift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FE5055BB946D4B0E5C7BE96BFC26BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7FC221DDDEB6A9F5EDF6D1E4CC8A2C /* KeychainAccess-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06211BFED24C96E7ADA9B774FAC62F28 /* Pods-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B57710B81F93EA70E7B5206C313F613 /* Build configuration list for PBXNativeTarget "Pods-demo" */;
+			buildPhases = (
+				04FDA5D5C29355C13ABBE0BBAEA2FEF3 /* Headers */,
+				96F3B7C1980C0E9EE5C59E975BD9CB8E /* Sources */,
+				E1802423C78E95D3EF8AC80AB5FFFF6D /* Frameworks */,
+				25831B2671B89C71AD2266DAD55822ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				011ED77989602F631BF8F11084407C00 /* PBXTargetDependency */,
+				724E406E1D574387DDCA96D935D09D4A /* PBXTargetDependency */,
+			);
+			name = "Pods-demo";
+			productName = "Pods-demo";
+			productReference = 620C2E500E91AE09F121C9670613B82F /* Pods_demo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		07E573C6387449590FFFC48167FEB464 /* IRPasscode-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA525D10884CD7E2A5B00AC4B48CB01 /* Build configuration list for PBXNativeTarget "IRPasscode-swift" */;
+			buildPhases = (
+				70B0E2F1AB46C83EDD724E66FE78DF51 /* Headers */,
+				84B616C48F99C23E0A997263391C337F /* Sources */,
+				DF95CAB4A4FA9500832E818B7BFAE83C /* Frameworks */,
+				4D6D2ACFA7C860131BE401F0DDCF607C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1C4D6FD69D7D5059BCC3592D54E9E08 /* PBXTargetDependency */,
+			);
+			name = "IRPasscode-swift";
+			productName = "IRPasscode-swift";
+			productReference = 01F2E7B6963F416E135ADEA7E7482C9C /* IRPasscode_swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		615C831BCE925ED486B225B87E44926D /* KeychainAccess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 333F6C4C158E6B88951DA9DE9E38A0CE /* Build configuration list for PBXNativeTarget "KeychainAccess" */;
+			buildPhases = (
+				A0FE5055BB946D4B0E5C7BE96BFC26BA /* Headers */,
+				679BE3EAD40BD52DAE7A28CF5BCE903B /* Sources */,
+				22E3DFEB6D6A3E426EEF6AC4531E3A32 /* Frameworks */,
+				0FFA60F2D679B94060720AAE7B908C9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeychainAccess;
+			productName = KeychainAccess;
+			productReference = E8EE7F078656FABB8F6821D10FF994BB /* KeychainAccess.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D54314D5B310639F3BD2D83B84E7E9E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07E573C6387449590FFFC48167FEB464 /* IRPasscode-swift */,
+				615C831BCE925ED486B225B87E44926D /* KeychainAccess */,
+				06211BFED24C96E7ADA9B774FAC62F28 /* Pods-demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FFA60F2D679B94060720AAE7B908C9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25831B2671B89C71AD2266DAD55822ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6D2ACFA7C860131BE401F0DDCF607C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CAA23CBB5D674171FA5B374456B4BC /* Assets.xcassets in Resources */,
+				F293CC451D6A88C0B46E0AB60FDF0547 /* IRPasscodeBundle.bundle in Resources */,
+				2AC731CC41E9B322E9F402D310C333FD /* IRPasscodeLockSettingViewController.xib in Resources */,
+				6AB7565CBAD927C95877DF790616DC01 /* IRSecurityPinViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		679BE3EAD40BD52DAE7A28CF5BCE903B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE5B5352AE474380FB05DD8C9254FF2 /* Keychain.swift in Sources */,
+				E585CBF5A5557AE9BD9C1DDF213DC0FC /* KeychainAccess-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B616C48F99C23E0A997263391C337F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C29A28E29A3F0F61A25D3FA43A7274 /* Bundle+IRLocalizedString.swift in Sources */,
+				578D148F0AE1AED6A7D7D88EA432C6F7 /* IRCustomIconButton.swift in Sources */,
+				7D1B234FDE8825342C77713B6BF499DF /* IRFingerPrintVerify.swift in Sources */,
+				FBFB0389147CB650E1173036CD984CF2 /* IRPasscode-swift-dummy.m in Sources */,
+				6833E50C382463A1EAB20E6D8A6690BA /* IRPasscodeLockSettingViewController.swift in Sources */,
+				25F8B30ADC86083055C6038A07C578E7 /* IRPasscodeView.swift in Sources */,
+				F2D475E20331870CD4C6F74F4B96FD3D /* IRSecurityPinButton.swift in Sources */,
+				D8CE2BF4A5AF4FDC239978E2CFC8D2EB /* IRSecurityPinManager.swift in Sources */,
+				C40515B38D9D2F656005C272480EA92E /* IRSecurityPinViewController.swift in Sources */,
+				13774C4AEA5B315EC191653DE43283F3 /* UIColor+Helper.swift in Sources */,
+				5694F50FFEE34317613614769A05CB5A /* UIImage+Bundle.swift in Sources */,
+				8599B9775B02E313F8119107914DE7B3 /* Utilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F3B7C1980C0E9EE5C59E975BD9CB8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC15F17F861411CF8484DA99306B4C2A /* Pods-demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		011ED77989602F631BF8F11084407C00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "IRPasscode-swift";
+			target = 07E573C6387449590FFFC48167FEB464 /* IRPasscode-swift */;
+			targetProxy = 82B4319E4F3F03A91BC6F03202FDFFA7 /* PBXContainerItemProxy */;
+		};
+		724E406E1D574387DDCA96D935D09D4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeychainAccess;
+			target = 615C831BCE925ED486B225B87E44926D /* KeychainAccess */;
+			targetProxy = E5E265B897895FE7F8AEFAD33B5B871D /* PBXContainerItemProxy */;
+		};
+		D1C4D6FD69D7D5059BCC3592D54E9E08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeychainAccess;
+			target = 615C831BCE925ED486B225B87E44926D /* KeychainAccess */;
+			targetProxy = 46A6952CFBDF2BAE79DC6F4B45AE7C25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4DC5A19F296F2E4C725FD37681015776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 056C11651D9181CFD60992F50710A1E6 /* Pods-demo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-demo/Pods-demo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-demo/Pods-demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95607A856795A398FFB76177B56DE3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9EDD1E10CB8AF2DB570AAF5CF36A39BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 102764E75956A8848BC9691383C3E031 /* KeychainAccess.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainAccess/KeychainAccess-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainAccess/KeychainAccess-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KeychainAccess/KeychainAccess.modulemap";
+				PRODUCT_MODULE_NAME = KeychainAccess;
+				PRODUCT_NAME = KeychainAccess;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A86B2105C768C5264635DA35DD6D2CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA6F28936150B774D174F70EC133595F /* Pods-demo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-demo/Pods-demo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-demo/Pods-demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B05F1115B173A9253D0090E38B47269D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA45BE46434E06CAC597B0C7F1E19C1B /* IRPasscode-swift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IRPasscode-swift/IRPasscode-swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IRPasscode-swift/IRPasscode-swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IRPasscode-swift/IRPasscode-swift.modulemap";
+				PRODUCT_MODULE_NAME = IRPasscode_swift;
+				PRODUCT_NAME = IRPasscode_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D6EECBCE91072E1A06BA3BD2D8E3C244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EC6540B8E1EDFC6EF7E27B7BE1D01EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D08F6359A0E379ED8697FA7E938BCFD6 /* IRPasscode-swift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IRPasscode-swift/IRPasscode-swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IRPasscode-swift/IRPasscode-swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IRPasscode-swift/IRPasscode-swift.modulemap";
+				PRODUCT_MODULE_NAME = IRPasscode_swift;
+				PRODUCT_NAME = IRPasscode_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC3F8E08116A28FD0E2EE5716BB9FABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD412C6E579A127E79AB91966C4560FC /* KeychainAccess.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainAccess/KeychainAccess-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainAccess/KeychainAccess-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KeychainAccess/KeychainAccess.modulemap";
+				PRODUCT_MODULE_NAME = KeychainAccess;
+				PRODUCT_NAME = KeychainAccess;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		333F6C4C158E6B88951DA9DE9E38A0CE /* Build configuration list for PBXNativeTarget "KeychainAccess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EDD1E10CB8AF2DB570AAF5CF36A39BC /* Debug */,
+				FC3F8E08116A28FD0E2EE5716BB9FABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B57710B81F93EA70E7B5206C313F613 /* Build configuration list for PBXNativeTarget "Pods-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A86B2105C768C5264635DA35DD6D2CE7 /* Debug */,
+				4DC5A19F296F2E4C725FD37681015776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95607A856795A398FFB76177B56DE3A8 /* Debug */,
+				D6EECBCE91072E1A06BA3BD2D8E3C244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA525D10884CD7E2A5B00AC4B48CB01 /* Build configuration list for PBXNativeTarget "IRPasscode-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6540B8E1EDFC6EF7E27B7BE1D01EC1 /* Debug */,
+				B05F1115B173A9253D0090E38B47269D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

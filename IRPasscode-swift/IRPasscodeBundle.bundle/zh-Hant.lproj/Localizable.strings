@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  IRPasscode
+
+  Created by Phil on 2019/11/15.
+  Copyright © 2019 Phil. All rights reserved.
+*/
+
+//Security
+"PasscodeLock" = "密碼鎖";
+"ChangePasscode" = "修改密碼";
+"EnterPinString" = "輸入密碼";
+"CreatePinString" = "設定密碼";
+"EnterOnceAgainString" = "確認密碼";
+"PinsDontMatchTryOnceAgainString" = "您的密碼不符合，請再試一次";
+"CreatePinMsgString" = "請在下方輸入一個密碼";
+"ConfirmPinMsgString" = "請再一次輸入密碼";
+"EnterPinMsgString" = "請在下方輸入密碼";
+"EnterOldPinMsgString" = "請在下方輸入舊密碼";
+"PasscodeHintString" = "一旦忘記密碼，您必須解除再重安裝APP才能正常使用。請注意此行為會導致原本APP中的檔案被刪除。";

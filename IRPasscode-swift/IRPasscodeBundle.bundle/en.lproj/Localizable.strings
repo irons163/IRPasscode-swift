@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  IRPasscode
+
+  Created by Phil on 2019/11/15.
+  Copyright © 2019 Phil. All rights reserved.
+*/
+
+//Security
+"PasscodeLock" = "Passcode lock";
+"ChangePasscode" = "Change passcode";
+"EnterPinString" = "Enter passcode";
+"CreatePinString" = "Set passcode";
+"EnterOnceAgainString" = "Confirm passcode";
+"PinsDontMatchTryOnceAgainString" = "Your passcodes don't match. Please try again.";
+"CreatePinMsgString" = "Enter a passcode below";
+"ConfirmPinMsgString" = "Enter the passcode again";
+"EnterPinMsgString" = "Enter the passcode below";
+"EnterOldPinMsgString" = "Enter the old passcode below";
+"PasscodeHintString" = "If you forget your passcode, you'll have to delete and reinstall APP. Please note, all you managed data will be delete as well.";

@@ -1,0 +1,23 @@
+PODS:
+  - IRPasscode-swift (0.2.0):
+    - KeychainAccess
+  - KeychainAccess (4.2.1)
+
+DEPENDENCIES:
+  - IRPasscode-swift (from `../IRPasscode-swift.podspec`)
+
+SPEC REPOS:
+  trunk:
+    - KeychainAccess
+
+EXTERNAL SOURCES:
+  IRPasscode-swift:
+    :path: "../IRPasscode-swift.podspec"
+
+SPEC CHECKSUMS:
+  IRPasscode-swift: 2911b3ea4f3cc835432c31389817734ac5d1304a
+  KeychainAccess: 9b07f665298d13c3a85881bd3171f6f49b8151c1
+
+PODFILE CHECKSUM: 1d9f304e705a85ffbc62217607a1b6822b3538ed
+
+COCOAPODS: 1.10.0
