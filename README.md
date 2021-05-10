@@ -4,11 +4,15 @@
 # IRPasscode-swift 
 
 - IRPasscode-swift is a powerful passcode for iOS.
+- The Objc version [IRPasscode](https://github.com/irons163/IRPasscode).
 
 ## Features
 - 4 Pin support.
 - FingerPrint support.
 - High Security - KeyChain support.
+
+## Technologies
+- KeyChain support ([KeychainAccess](https://github.com/kishikawakatsumi/KeychainAccess)).
 
 ## Install
 ### Git
@@ -26,18 +30,19 @@
 
 ### Basic
 - Open `Passcode Setting Page`.
-```obj-c
-#import <IRPasscode/IRPasscode.h>
+```swift
+import IRPasscode_swift
 
-NSBundle *xibBundle = [NSBundle bundleForClass:[IRPasscodeLockSettingViewController class]];
-IRPasscodeLockSettingViewController *vc = [[IRPasscodeLockSettingViewController alloc] initWithNibName:@"IRPasscodeLockSettingViewController" bundle:xibBundle];
-[self.navigationController pushViewController:vc animated:YES];
+let xibBundle = Bundle.init(for: IRPasscodeLockSettingViewController.self)
+let vc = IRPasscodeLockSettingViewController.init(nibName: "IRPasscodeLockSettingViewController", bundle: xibBundle)
+self.navigationController?.pushViewController(vc, animated: true)
 ```
 
 - Open `Passcode verify page`.
-```obj-c
-if ([IRSecurityPinManager sharedInstance].pinCode)
-    [[IRSecurityPinManager sharedInstance] presentSecurityPinViewControllerForUnlockWithAnimated:YES completion:nil result:nil];
+```swift
+if ((IRSecurityPinManager.sharedInstance.pinCode) != nil) {
+    IRSecurityPinManager.sharedInstance.presentSecurityPinViewControllerForUnlock(animated: true, completion: nil, result: nil)
+}
 ```
 
 ## Screenshots
