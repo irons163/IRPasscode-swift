@@ -11,17 +11,15 @@ import UIKit
 
 extension UIColor {
     class func colorWithColorCodeString(_ colorString: String) -> UIColor {
-        let color: UnsafeMutablePointer<UInt64> = UnsafeMutablePointer.init(bitPattern: 0)!
+        var color: UInt64 = 0
         let scanner: Scanner = Scanner.init(string: colorString)
         
-        //    [scanner setScanLocation:1]; // bypass '#' character
-        scanner.scanHexInt64(color)
+        scanner.scanHexInt64(&color)
         
-    //    NSLog(@"%u",((color >> 24) & 0xFF));
-        if(colorString.count == 6){
-            return UIColor.colorWithRGB(color.pointee)
-        }else{
-            return UIColor.colorWithARGB(color.pointee)
+        if (colorString.count == 6) {
+            return UIColor.colorWithRGB(color)
+        } else {
+            return UIColor.colorWithARGB(color)
         }
     }
     
@@ -41,7 +39,6 @@ extension UIColor {
         let color: UnsafeMutablePointer<UInt64> = UnsafeMutablePointer.init(bitPattern: 0)!
         let scanner: Scanner = Scanner.init(string: colorString)
         
-        //    [scanner setScanLocation:1]; // bypass '#' character
         scanner.scanHexInt64(color)
         return UIColor.colorWithRGB(color.pointee)
     }

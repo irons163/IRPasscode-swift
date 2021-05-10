@@ -46,9 +46,10 @@ open class IRSecurityPinManager: IRSecurityPinViewControllerDelegate {
     
     func presentSecurityPinViewController(animated: Bool, completion: (() -> ())?, cancellable: Bool, isChangeCode: Bool) {
         var flag: Bool = false
-        if((self.window) != nil) {
+        if ((self.window) != nil) {
             flag = false
         }
+        
         self.securityPinViewController?.dismiss(animated: false, completion: nil)
         self.cleanup()
         
@@ -67,18 +68,20 @@ open class IRSecurityPinManager: IRSecurityPinViewControllerDelegate {
         self.window?.makeKeyAndVisible()
         
         self.securityPinViewController = nil;
-    //    IRSecurityPinViewController *securityPinViewController = [IRSecurityPinViewController new];
         let xibBundle = Bundle.init(for: IRSecurityPinViewController.self)
         let securityPinViewController = IRSecurityPinViewController.init(nibName: "IRSecurityPinViewController", bundle: xibBundle)
-        securityPinViewController.delegate = self;
-        securityPinViewController.cancellable = cancellable;
-        self.securityPinViewController = securityPinViewController;
-        if((self.pinCode) != nil) {
+        securityPinViewController.delegate = self
+        securityPinViewController.cancellable = cancellable
+        self.securityPinViewController = securityPinViewController
+        
+        if ((self.pinCode) != nil) {
             securityPinViewController.pinCodeToCheck = self.pinCode
         }
-        if(isChangeCode) {
-            securityPinViewController.shouldResetPinCode = isChangeCode;
+        
+        if (isChangeCode) {
+            securityPinViewController.shouldResetPinCode = isChangeCode
         }
+        
         securityPinViewController.modalPresentationStyle = .fullScreen
         self.window?.rootViewController?.present(securityPinViewController, animated: flag, completion: completion)
     }
@@ -111,8 +114,6 @@ open class IRSecurityPinManager: IRSecurityPinViewControllerDelegate {
     open func presentSecurityPinViewControllerForUnlock(animated: Bool, completion: (() -> ())?, result: ResultBlock) {
         self.presentSecurityPinViewController(animated: animated, cancellable: false, isChangeCode: false, usePolicyDeviceOwnerAuthentication: true, completion: completion, result: result)
     }
-    
-    
     
     func cleanup() {
         UIApplication.shared.delegate?.window??.makeKey()
@@ -167,53 +168,4 @@ open class IRSecurityPinManager: IRSecurityPinViewControllerDelegate {
             self.result!!(.Changed)
         }
     }
-
-    // MARK: - Alert
-//    - (void)showAlertWithMessage:(NSString *)message {
-//
-//    //    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil
-//    //                                                    message:message
-//    //                                                   delegate:nil
-//    //                                          cancelButtonTitle:@"Dismiss"
-//    //                                          otherButtonTitles:nil];
-//    //    [alert show];
-//    }
-//
-//    - (UIButton *)fingerPrintIcon
-//    {
-//    //    if (!_fingerPrintIcon) {
-//    //        _fingerPrintIcon = [UIButton buttonWithType:UIButtonTypeCustom];
-//    //        [_fingerPrintIcon setImage:[UIImage imageNamed:@"open_lock_way_finger"] forState:UIControlStateNormal];
-//    //        _fingerPrintIcon.imageView.contentMode = UIViewContentModeScaleAspectFill;
-//    //        _fingerPrintIcon.bounds = CGRectMake(0, 0, MAIN_SIZE.width/2, MAIN_SIZE.height/4);
-//    //        _fingerPrintIcon.center = self.view.center;
-//    //        [_fingerPrintIcon addTarget:self action:@selector(fingerPrintIconAction:) forControlEvents:UIControlEventTouchUpInside];
-//    //        [self.view addSubview:_fingerPrintIcon];
-//    //    }
-//        return _fingerPrintIcon;
-//    }
-//    - (void)fingerPrintIconAction:(UIButton *)btn
-//    {
-//        [self referenceBtnAction:_referenceBtn];
-//    }
-//    - (UIButton *)referenceBtn
-//    {
-//    //    if (!_referenceBtn) {
-//    //        _referenceBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-//    //        //        [_referenceBtn mhd_buttonWithTitle:@"点击验证指纹" backColor:[UIColor colorWithRed:0/255.0 green:204/255.0 blue:173/255.0 alpha:1] font:17 titleColor:[UIColor whiteColor] cornerRadius:5];
-//    //        [_referenceBtn setTitle:@"点击验证指纹" forState:UIControlStateNormal];
-//    //        _referenceBtn.bounds = CGRectMake(0, 0, MAIN_SIZE.width/2, 30);
-//    //        _referenceBtn.center = CGPointMake(self.view.center.x, _fingerPrintIcon.center.y+MAIN_SIZE.height/8);
-//    //        _referenceBtn.titleLabel.adjustsFontSizeToFitWidth = true;
-//    //        [_referenceBtn addTarget:self action:@selector(referenceBtnAction:) forControlEvents:UIControlEventTouchUpInside];
-//    //        [self.view addSubview:_referenceBtn];
-//    //    }
-//        return _referenceBtn;
-//    }
-//    - (void)referenceBtnAction:(UIButton *)btn
-//    {
-//        [IRFingerPrintVerify fingerPrintLocalAuthenticationFallBackTitle:@"Fail" localizedReason:@"fail" callBack:^(BOOL isSuccess, NSError * _Nullable error, NSString *referenceMsg) {
-//            [btn setTitle:referenceMsg forState:UIControlStateNormal];
-//        }];
-//    }
 }

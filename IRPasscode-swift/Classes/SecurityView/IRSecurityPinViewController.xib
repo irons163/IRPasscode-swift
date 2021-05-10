@@ -52,7 +52,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xxo-9y-kzM">
                                             <rect key="frame" x="0.0" y="0.0" width="128" height="49.5"/>
                                             <subviews>
-                                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CLO-iP-4pj" customClass="IRSecurityPinButton">
+                                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CLO-iP-4pj" customClass="IRSecurityPinButton" customModule="IRPasscode_swift" customModuleProvider="target">
                                                     <rect key="frame" x="2" y="0.0" width="124" height="49.5"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
@@ -91,7 +91,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oNc-lp-g31">
                                             <rect key="frame" x="128" y="0.0" width="128" height="49.5"/>
                                             <subviews>
-                                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zC0-A2-NIm" customClass="IRSecurityPinButton">
+                                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zC0-A2-NIm" customClass="IRSecurityPinButton" customModule="IRPasscode_swift" customModuleProvider="target">
                                                     <rect key="frame" x="2" y="0.0" width="124" height="49.5"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
@@ -130,7 +130,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aNm-LU-WP0">
                                             <rect key="frame" x="256" y="0.0" width="128" height="49.5"/>
                                             <subviews>
-                                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ew1-Te-G9u" customClass="IRSecurityPinButton">
+                                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ew1-Te-G9u" customClass="IRSecurityPinButton" customModule="IRPasscode_swift" customModuleProvider="target">
                                                     <rect key="frame" x="2" y="0.0" width="124" height="49.5"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
@@ -174,7 +174,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nA3-Rl-5Qn">
                                             <rect key="frame" x="0.0" y="0.0" width="128" height="50"/>
                                             <subviews>
-                                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TOY-f0-qDN" customClass="IRSecurityPinButton">
+                                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TOY-f0-qDN" customClass="IRSecurityPinButton" customModule="IRPasscode_swift" customModuleProvider="target">
                                                     <rect key="frame" x="2" y="0.0" width="124" height="50"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
@@ -213,7 +213,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YhB-xF-VkB">
                                             <rect key="frame" x="128" y="0.0" width="128" height="50"/>
                                             <subviews>
-                                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CRB-OY-GbW" customClass="IRSecurityPinButton">
+                                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CRB-OY-GbW" customClass="IRSecurityPinButton" customModule="IRPasscode_swift" customModuleProvider="target">
                                                     <rect key="frame" x="2" y="0.0" width="124" height="50"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
@@ -252,7 +252,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ifj-RV-2GO">
                                             <rect key="frame" x="256" y="0.0" width="128" height="50"/>
                                             <subviews>
-                                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hs5-4f-ahF" customClass="IRSecurityPinButton">
+                                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hs5-4f-ahF" customClass="IRSecurityPinButton" customModule="IRPasscode_swift" customModuleProvider="target">
                                                     <rect key="frame" x="2" y="0.0" width="124" height="50"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
@@ -296,7 +296,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1KC-Px-O4A">
                                             <rect key="frame" x="0.0" y="0.0" width="128" height="49.5"/>
                                             <subviews>
-                                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uwX-xa-R3b" customClass="IRSecurityPinButton">
+                                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uwX-xa-R3b" customClass="IRSecurityPinButton" customModule="IRPasscode_swift" customModuleProvider="target">
                                                     <rect key="frame" x="2" y="0.0" width="124" height="49.5"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
@@ -335,7 +335,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TIL-cp-a5I">
                                             <rect key="frame" x="128" y="0.0" width="128" height="49.5"/>
                                             <subviews>
-                                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E6E-43-dJ7" customClass="IRSecurityPinButton">
+                                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E6E-43-dJ7" customClass="IRSecurityPinButton" customModule="IRPasscode_swift" customModuleProvider="target">
                                                     <rect key="frame" x="2" y="0.0" width="124" height="49.5"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
@@ -374,7 +374,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nPn-VQ-dyS">
                                             <rect key="frame" x="256" y="0.0" width="128" height="49.5"/>
                                             <subviews>
-                                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="muj-z3-4Sa" customClass="IRSecurityPinButton">
+                                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="muj-z3-4Sa" customClass="IRSecurityPinButton" customModule="IRPasscode_swift" customModuleProvider="target">
                                                     <rect key="frame" x="2" y="0.0" width="124" height="49.5"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
@@ -418,7 +418,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ynd-jS-X3v">
                                             <rect key="frame" x="0.0" y="0.0" width="128" height="49.5"/>
                                             <subviews>
-                                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Whv-q7-h0N" customClass="IRSecurityPinButton">
+                                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Whv-q7-h0N" customClass="IRSecurityPinButton" customModule="IRPasscode_swift" customModuleProvider="target">
                                                     <rect key="frame" x="2" y="0.0" width="124" height="49.5"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
@@ -457,7 +457,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ahg-iB-pA3">
                                             <rect key="frame" x="128" y="0.0" width="128" height="49.5"/>
                                             <subviews>
-                                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tFm-Uk-dgq" customClass="IRSecurityPinButton">
+                                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tFm-Uk-dgq" customClass="IRSecurityPinButton" customModule="IRPasscode_swift" customModuleProvider="target">
                                                     <rect key="frame" x="2" y="0.0" width="124" height="49.5"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
@@ -496,7 +496,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5QE-jP-qHi">
                                             <rect key="frame" x="256" y="0.0" width="128" height="49.5"/>
                                             <subviews>
-                                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcx-ub-FTi" customClass="IRCustomIconButton" customModule="IRPasscode_swift" customModuleProvider="target">
+                                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcx-ub-FTi" customClass="IRSecurityPinButton" customModule="IRPasscode_swift" customModuleProvider="target">
                                                     <rect key="frame" x="2" y="0.0" width="124" height="49.5"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
@@ -576,44 +576,6 @@
             <point key="canvasLocation" x="131.8840579710145" y="97.767857142857139"/>
         </view>
     </objects>
-    <designables>
-        <designable name="CLO-iP-4pj">
-            <size key="intrinsicContentSize" width="30" height="48"/>
-        </designable>
-        <designable name="CRB-OY-GbW">
-            <size key="intrinsicContentSize" width="30" height="48"/>
-        </designable>
-        <designable name="E6E-43-dJ7">
-            <size key="intrinsicContentSize" width="30" height="48"/>
-        </designable>
-        <designable name="TOY-f0-qDN">
-            <size key="intrinsicContentSize" width="30" height="48"/>
-        </designable>
-        <designable name="Whv-q7-h0N">
-            <size key="intrinsicContentSize" width="64" height="38"/>
-        </designable>
-        <designable name="ew1-Te-G9u">
-            <size key="intrinsicContentSize" width="30" height="48"/>
-        </designable>
-        <designable name="hs5-4f-ahF">
-            <size key="intrinsicContentSize" width="30" height="48"/>
-        </designable>
-        <designable name="muj-z3-4Sa">
-            <size key="intrinsicContentSize" width="30" height="48"/>
-        </designable>
-        <designable name="tFm-Uk-dgq">
-            <size key="intrinsicContentSize" width="30" height="48"/>
-        </designable>
-        <designable name="uwX-xa-R3b">
-            <size key="intrinsicContentSize" width="30" height="48"/>
-        </designable>
-        <designable name="zC0-A2-NIm">
-            <size key="intrinsicContentSize" width="30" height="48"/>
-        </designable>
-        <designable name="zcx-ub-FTi">
-            <size key="intrinsicContentSize" width="86.5" height="53"/>
-        </designable>
-    </designables>
     <resources>
         <image name="ic_back" width="86.5" height="53"/>
     </resources>

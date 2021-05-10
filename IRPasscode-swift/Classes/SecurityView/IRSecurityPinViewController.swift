@@ -185,7 +185,7 @@ class IRSecurityPinViewController: UIViewController, IRPasscodeViewDelegate {
                 self.delegate?.pinCodeViewController(controller: self, didFailVerificationWithCount: self.failedAttempts)
                 
                 //Message
-                self.showPinCreatedMessage()
+                self.showPinsDontMatchMessage()
             }
         }
     }
@@ -229,7 +229,7 @@ class IRSecurityPinViewController: UIViewController, IRPasscodeViewDelegate {
                     //Password don't match. Let's go to step 2
                 } else {
                     
-                    self.firstTimeEnteredPin = nil;
+                    self.firstTimeEnteredPin = nil
                     self.failedAttempts += 1
                     
                     self.delegate?.pinCodeViewController(controller: self, didFailVerificationWithCount: self.failedAttempts)
@@ -245,7 +245,7 @@ class IRSecurityPinViewController: UIViewController, IRPasscodeViewDelegate {
         //Verify case
         if (self.pinCodeToCheck != nil && self.cancellable) {
             self.showEnterYourOldPinMessage()
-        }else if (self.pinCodeToCheck != nil && !self.shouldResetPinCode) {
+        } else if (self.pinCodeToCheck != nil && !self.shouldResetPinCode) {
             self.showEnterYourPinMessage()
         } else if (self.pinCodeToCheck != nil && self.shouldResetPinCode) {
             self.showEnterYourOldPinMessage()
@@ -293,7 +293,7 @@ class IRSecurityPinViewController: UIViewController, IRPasscodeViewDelegate {
     }
     
     @IBAction fileprivate func numberClick(_ sender: UIButton) {
-        self.pinCodeView?.pinCode = String.init(format: "%@%@", ((self.pinCodeView?.pinCode) != nil) ? self.pinCodeView?.pinCode! as! String : "", sender.titleLabel?.text as! String)
+        self.pinCodeView?.pinCode = String.init(format: "%@%@", ((self.pinCodeView?.pinCode) != nil) ? self.pinCodeView!.pinCode!: "", (sender.titleLabel?.text != nil) ? sender.titleLabel!.text! : "")
     }
     
     @IBAction fileprivate func cancelClick(_ sender: UIButton) {
@@ -305,20 +305,4 @@ class IRSecurityPinViewController: UIViewController, IRPasscodeViewDelegate {
             self.pinCodeView?.pinCode = String((self.pinCodeView?.pinCode?.prefix((self.pinCodeView?.pinCode!.count)! - 1))!)
         }
     }
-
-//    - (IBAction)numberClick:(UIButton*)sender {
-//        self.pinCodeView.pinCode = [NSString stringWithFormat:@"%@%@", self.pinCodeView.pinCode ? self.pinCodeView.pinCode : @"", sender.titleLabel.text];
-//    }
-//
-//    - (IBAction)cancelClick:(id)sender {
-//        if ([self.delegate respondsToSelector:@selector(pinCodeViewControllerDidCancel:)]) {
-//            [self.delegate pinCodeViewControllerDidCancel:self];
-//        }
-//    }
-//
-//    - (IBAction)deleteClick:(id)sender {
-//        if(self.pinCodeView.pinCode.length > 0)
-//            self.pinCodeView.pinCode = [self.pinCodeView.pinCode substringToIndex:[self.pinCodeView.pinCode length]-1];
-//    }
-
 }
