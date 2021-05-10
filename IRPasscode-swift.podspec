@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "IRPasscode-swift"
-  spec.version      = "1.0.0"
+  spec.version      = "1.1.0"
   spec.summary      = "A powerful passcode of iOS."
   spec.description  = "A powerful passcode of iOS."
   spec.homepage     = "https://github.com/irons163/IRPasscode-swift.git"
